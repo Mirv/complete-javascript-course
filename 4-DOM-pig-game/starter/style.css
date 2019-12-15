@@ -138,7 +138,53 @@ i {
 }
 
 .btn-new { top: 45px;}
-.btn-roll { top: 403px;}
+.win-condition-label {
+    position: absolute;
+    width: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+    top: 90px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 1;
+    vertical-align: text-top;
+    margin-top: -4px;
+    transition: margin 0.3s;
+}
+.win-conditions { 
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    transition: background-color 0.3s, color 0.3s;
+    top: 100px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-right: 15px;
+    line-height: 1;
+    vertical-align: text-top;
+    margin-top: -4px;
+    transition: margin 0.3s;
+}
+    .btn-roll { top: 403px;}
 .btn-hold { top: 467px;}
 
 .dice {
